@@ -4,8 +4,8 @@
 .DESCRIPTION
   This script will trigger auto updates asynchronously and wait until it has completed successfully.
 #>
-$ErrorActionPreference="Stop"
+# $ErrorActionPreference="Stop"
 
-Install-Module -Name PSWindowsUpdate -Force
-Get-WindowsUpdate -AcceptAll
-Install-WindowsUpdate -AcceptAll -IgnoreReboot
+# Install-Module -Name PSWindowsUpdate -Force
+# Get-WindowsUpdate -AcceptAll
+# Install-WindowsUpdate -AcceptAll -IgnoreReboot
